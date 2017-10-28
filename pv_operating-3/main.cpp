@@ -120,6 +120,7 @@ int main() {
                 wait(para[0],stoi(para[1]));
             }else{
                 throwerr(INVALID_PARAMETER);
+                continue;
             }
         }else if(command.find("signal") == 0){
             para[0] = substr_index(command, command.find('(') +1, command.find(')'));
@@ -127,6 +128,7 @@ int main() {
                 signal(para[0]);
             }else{
                 throwerr(INVALID_PARAMETER);
+                continue;
             }
         }else{
             throwerr(INVALID_COMMAND);
