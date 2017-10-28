@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sce/study/option_system-experiment/pv_operating-3/basic.h
+iostream
+-
+string
+-
+
+/home/sce/study/option_system-experiment/pv_operating-3/main.cpp
+basic.h
+/home/sce/study/option_system-experiment/pv_operating-3/basic.h
+
