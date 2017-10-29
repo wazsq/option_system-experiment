@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/fcfs_schedule_4.dir/main.cpp.o  -o fcfs_schedule_4 
