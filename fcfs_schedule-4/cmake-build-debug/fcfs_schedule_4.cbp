@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/sce/study/option_system-experiment/fcfs_schedule-4/basic.h">
+			<Option target="fcfs_schedule_4"/>
+		</Unit>
 		<Unit filename="/home/sce/study/option_system-experiment/fcfs_schedule-4/main.cpp">
 			<Option target="fcfs_schedule_4"/>
 		</Unit>
