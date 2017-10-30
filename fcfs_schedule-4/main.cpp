@@ -18,6 +18,8 @@ int main() {
             editpcb(pcblist);
         }else if(comand == "fcfs" || comand == "FCFS"){
             FCFS(pcblist);
+        }else{
+            throwerr(INVALID_COMMAND);
         }
     }
     return 0;
